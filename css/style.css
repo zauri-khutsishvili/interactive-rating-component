@@ -1,0 +1,234 @@
+:root {
+    /*Primary*/
+    --orange: hsl(25, 97%, 53%);
+    /*Neutral*/
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--white);
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-size: 0.9375rem;
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--very-dark-blue);
+    color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.rating {
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    max-width: 25.75rem;
+    min-height: 26rem;
+    padding: 2rem 2.4375rem 2rem 2rem;
+    border-radius: 1.875rem;
+    margin: 2.4rem 6.4% 2rem;
+    transition: .1s ease-in-out;
+}
+
+.rate__star-icon {
+    background-color: var(--dark-blue);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.rate__heading {
+    margin-bottom: .372em;
+}
+
+.rate__description {
+    margin-bottom: 1.6rem;
+}
+
+.rate__points {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.rate__point {
+    all: unset;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    width: 3.1875rem;
+    padding-top: 1.134em;
+    padding-bottom: 1em;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out, color .1s ease-in-out;
+}
+
+.rate__point:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.rate__point:focus {
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
+.rate__submit {
+    all: unset;
+    box-sizing: inherit;
+    width: 100%;
+    background-color: var(--orange);
+    padding: 0.938rem 0.6875rem 0.6875rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+    letter-spacing: 0.125rem;
+    border-radius: 1.40625rem;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out, color .1s ease-in-out;
+}
+
+.rate__submit:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thank-you__illustration {
+    margin-top: 0.8125rem;
+    margin-bottom: 2rem;
+}
+
+.thank-you__selected {
+    background-color: var(--dark-blue);
+    color: var(--orange);
+    padding: .407em 1.3em .127em;
+    border-radius: 1.40625rem;
+    margin-bottom: 2.1rem;
+    margin-left: .5rem;
+}
+
+.thank-you__heading {
+    margin-bottom: .35em;
+    margin-left: .5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 26.25em) {
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        line-height: 1.57;
+    }
+
+    body {
+        font-size: 0.875rem;
+    }
+
+    .rating {
+        min-height: 22.5rem;
+        padding: 1.5rem 1.5rem 2rem;
+        border-radius: 0.9375rem;
+        margin: 2.1rem 6.4% 2rem;
+    }
+
+    .rate__star-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .rate__star-icon img {
+        width: 0.875rem;
+    }
+    
+    .rate__heading {
+        margin-bottom: .47em;
+    }
+    
+    .rate__description {
+        margin-bottom: 1.6rem;
+    }
+    
+    .rate__points {
+        margin-bottom: 1.5rem;
+    }
+    
+    .rate__point {
+        width: 2.625rem;
+        padding-top: .95em;
+        padding-bottom: .837em;
+    }
+    
+    .rate__submit {
+        padding: 1rem 0.6875rem 0.75rem;
+    }
+    
+    .thank-you__illustration {
+        width: 9rem;
+        margin-top: .625rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .thank-you__selected {
+        padding: .497em .75em .22em;
+        border-radius: 0.9375rem;
+        margin-bottom: 1.7rem;
+        margin-left: 0;
+    }
+    
+    .thank-you__heading {
+        margin-bottom: .5em;
+        margin-left: 0;
+    }
+}
