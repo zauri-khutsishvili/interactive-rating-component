@@ -1,11 +1,11 @@
 # Frontend Mentor - Equalizer landing page solution
 
-This is a solution to the [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100).
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-qCp4F3Trl-](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-qCp4F3Trl-)
-- Live Site URL: [https://zauri-khutsishvili.github.io/huddle-landing-page-with-alternating-feature-blocks/](https://zauri-khutsishvili.github.io/huddle-landing-page-with-alternating-feature-blocks/)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-XQPH8DQecX](https://www.frontendmentor.io/solutions/interactive-rating-component-XQPH8DQecX)
+- Live Site URL: [https://zauri-khutsishvili.github.io/interactive-rating-component/](https://zauri-khutsishvili.github.io/interactive-rating-component/)
 
 ## Built with
 
